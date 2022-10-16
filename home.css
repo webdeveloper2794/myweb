@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(back8.jpg);  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: aquamarine;
+}
+.navbar{
+ display: flex;
+ justify-content: space-around; 
+ box-shadow: 0 0 10px 5px rgb(193, 230, 243);
+  overflow: hidden;
+}
+header{
+  background-image: url('Content structure-amico.png');
+  background-size: 35%;
+  background-repeat: no-repeat; 
+  background-position-y: center;
+  background-attachment:unset;
+  background-origin: content-box;
+  background-image: url(back8.jpg);  
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+h1{
+font-size: 1.5em;
+text-align: center;
+padding: 2%;
+margin-left: 10%;
+color: aqua;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 2.5em;
+}
+
+.img{
+  width: 30%;
+  top: 100;
+  margin: 2% 1%;
+  filter: drop-shadow(10px 10px 10px black);
+  -webkit-filter: drop-shadow(10px 10px 10px black);
+}
+.img2{
+  margin-top: 13%;
+  width: 45%;
+}
+p{
+  width: 30%;
+  padding: 1%;
+}
+.nav-link{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;  
+  
+}
+.nav-link li, .nav-link a{
+  list-style-type: none;
+  text-decoration: none;    
+  margin: 1% 5%;
+}
+.last{
+  background-color: aqua;
+}
+@media screen and (max-width: 350px){ 
+  h1{
+    font: size 10px;
+  }
+}
+::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(241, 237, 244);
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(179, 179, 246);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: aqua;
+}
+div h1, div h2{
+  background:-webkit-linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+        -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 5vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div p{
+  color: rgb(0, 108, 163);
+  text-shadow: 0 5px 15px white;
+}
+
